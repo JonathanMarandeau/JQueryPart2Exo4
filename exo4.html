@@ -16,14 +16,16 @@
       <div class="color blue" id="blue"></div>
       </div>
       <script>
-        $('#green').click(function(){//Création d'une fonction pour le bouton green
-          $('#texte').css('color', 'green');//Ce bouton changera la couleur du texte en vert
-        });
-        $('#red').click(function(){
-          $('#texte').css('color', 'red');
-        });
-        $('#blue').click(function(){
-          $('#texte').css('color', 'blue');
+        $(function(){
+          $('#green').click(function(){//Création d'une fonction pour le bouton green
+            $('#texte').css('color', 'green');//Ce bouton changera la couleur du texte en vert
+          });
+          $('#red').click(function(){
+            $('#texte').css('color', 'red');
+          });
+          $('#blue').click(function(){
+            $('#texte').css('color', 'blue');
+          });
         });
       </script>
     </body>
